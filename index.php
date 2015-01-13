@@ -1,8 +1,8 @@
-<?
+<?php
 
-echo "<form method='post' action=''>";
-echo "<label>Input</label>";
-echo "<input type='text' />";
-echo "</form>";
+echo "<form method='post' action=''><label>Input</label><input type='text' name='se'></form>";
+
+
+if(!empty($_POST['se']))echo $_POST['se'];
 
 ?>
