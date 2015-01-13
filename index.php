@@ -6,16 +6,10 @@ if(!($_POST['username']=="shuvo"))
 
 ?>
 
-<!DOCTYPE html>
-<html>
-	<title>Index</title>
-	<header>
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
-	</header>
+<?php require_once "header.php" ?>
+<?php require_once "sidebar.php" ?>
+<div class="col-mdd-6">
+	<p>This is it</p>
+</div>
 
-<body>
-	<p>
-	This is it......
-	</p>
-</body>
-</html>
+<?php require_once "footer.php" ?>
