@@ -1,8 +1,21 @@
 <?php
-
-echo "<form method='post' action=''><label>Input</label><input type='text' name='se' class='hell'></form>";
-
-
-if(!empty($_POST['se']))echo $_POST['se'];
+if(!($_POST['username']=="shuvo"))
+{
+	exit;
+}
 
 ?>
+
+<!DOCTYPE html>
+<html>
+	<title>Index</title>
+	<header>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</header>
+
+<body>
+	<p>
+	This is it......
+	</p>
+</body>
+</html>
